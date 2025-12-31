@@ -1,0 +1,20 @@
+﻿@model TinyEditorDemo.Models.Article
+
+<h2>Create Article</h2>
+
+<form method="post">
+    <input name="Title" class="form-control mb-2" placeholder="Title" />
+
+    <textarea id="editor" name="HtmlContent"></textarea>
+
+    <button class="btn btn-success mt-3">Save</button>
+</form>
+
+<script src="https://cdn.tiny.cloud/1/itv9r52qxh8oz2dyzj2z85rlmq11wbh0gsxypzry8918mlvq/tinymce/8/tinymce.min.js" referrerpolicy="origin" crossorigin="anonymous"></script>
+
+<script>
+    tinymce.init({
+        selector: '#editor',
+        height: 300
+    });
+</script>
