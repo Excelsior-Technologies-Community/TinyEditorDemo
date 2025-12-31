@@ -51,8 +51,11 @@ dotnet run
 Open:
 
 /Article/Create
+
+```
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/aaf394bf-3f5b-4d07-9393-6b3525f704d8" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/18ad97ad-7a2b-4342-a71d-df8ce6042588" />
+
 
 
 
